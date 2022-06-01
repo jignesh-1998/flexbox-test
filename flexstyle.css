@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-flex {
+  width: 100%;
+  overflow: visible;
+  background-color: pink;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container-flex > div {
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  text-align: center;
+  margin: 10px;
+}
